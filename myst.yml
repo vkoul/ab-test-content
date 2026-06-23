@@ -4,7 +4,7 @@ project:
   title: "Practical A/B Testing Course"
   authors:
     - name: "Self-Study Edition"
-  github: https://github.com/vkoul/ab-testing-course
+  github: https://github.com/vkoul/ab-test-content
   open_access: true
   license: CC-BY-4.0
   toc:
@@ -58,5 +58,5 @@ site:
     logo_text: "A/B Testing"
   actions:
     - title: "Open in Colab"
-      url: https://colab.research.google.com/github/vkoul/ab-testing-course/blob/main/{{ path }}
+      url: https://colab.research.google.com/github/vkoul/ab-test-content/blob/main/{{ path }}
   template: book-theme

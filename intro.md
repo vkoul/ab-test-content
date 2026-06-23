@@ -32,8 +32,8 @@ Click the **rocket icon** (🚀) at the top of any notebook page to open it in G
 
 Or clone the repo and run locally:
 ```bash
-git clone https://github.com/vkoul/ab-testing-course.git
-cd ab-testing-course
+git clone https://github.com/vkoul/ab-test-content.git
+cd ab-test-content
 pip install -r requirements.txt
 jupyter lab
 ```
