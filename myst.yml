@@ -1,7 +1,7 @@
 version: 1
 
 project:
-  title: "Practical A/B Testing Course"
+  title: "A/B Testing in Practice"
   authors:
     - name: "Self-Study Edition"
   github: https://github.com/vkoul/ab-test-content
@@ -53,7 +53,7 @@ project:
           title: "30 Critical Questions"
 
 site:
-  title: "Practical A/B Testing Course"
+  title: "A/B Testing in Practice"
   options:
     logo_text: "A/B Testing"
   actions:

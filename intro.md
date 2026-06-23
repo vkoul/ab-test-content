@@ -1,10 +1,10 @@
-# Practical A/B Testing Course
+# A/B Testing in Practice
 
-Welcome to **Practical A/B Testing** — a hands-on, project-based course where you learn to design, analyze, and communicate A/B test results like a product data scientist.
+Welcome to **A/B Testing in Practice** — a hands-on, project-based course where you learn to design, analyze, and communicate A/B test results like a product data scientist.
 
 ## The Story
 
-You are a **product data scientist** at **TinyTravelers** — think Airbnb, but for families with young kids. Your team is focused on growing the number of homes on the platform by improving the host onboarding flow.
+You are a **product data scientist** at **FamilyNest** — think Airbnb, but for families with young kids. Your team is focused on growing the number of homes on the platform by improving the host onboarding flow.
 
 Each week, you'll face realistic scenarios: designing experiments, catching validity issues, handling stakeholder pressure, and managing multiple concurrent tests.
 

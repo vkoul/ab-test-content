@@ -1,10 +1,10 @@
-# Practical A/B Testing — Comprehensive Course Notes
+# A/B Testing in Practice — Comprehensive Course Notes
 
 ---
 
 ## Week 1: Designing A/B Tests
 
-### 1.1 The TinyTravelers Context
+### 1.1 The FamilyNest Context
 - Company: Airbnb-like platform for families with young kids
 - Role: Product Data Scientist on host growth team
 - Goal: Improve onboarding flow to grow the number of homes on platform
@@ -35,7 +35,7 @@
 | Timeliness | Shorter lag to measure → faster decisions | Downstream metrics take longer but matter more |
 | Business connection | Clear link to revenue/growth | The most valuable metrics are often hardest to move |
 
-**For TinyTravelers onboarding:**
+**For FamilyNest onboarding:**
 - **New Active Listings (NAL):** Most sensitive, most timely (2hr), least valuable
 - **New Booked Listings (NBL):** Balanced — moderate sensitivity, 7-day lag, clear revenue connection
 - **New Reviewed Listings (NRL):** Most valuable, but 23-day lag and lowest sensitivity
