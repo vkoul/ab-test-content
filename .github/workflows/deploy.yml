@@ -17,6 +17,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      BASE_URL: /ab-test-content
     steps:
       - uses: actions/checkout@v4
 
@@ -34,12 +36,25 @@ jobs:
         run: pip install jupyter-book
 
       - name: Build the book
-        run: BASE_URL=/ab-test-content jupyter-book build --html
+        run: jupyter-book build --html
+
+      - name: Find build output
+        id: find_output
+        run: |
+          if [ -d "_build/html" ]; then
+            echo "path=_build/html" >> $GITHUB_OUTPUT
+          elif [ -d "_build/site" ]; then
+            echo "path=_build/site" >> $GITHUB_OUTPUT
+          elif [ -d "_build" ]; then
+            echo "path=_build" >> $GITHUB_OUTPUT
+          fi
+          echo "Build output contents:"
+          find _build -maxdepth 2 -type f | head -20
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_build/html
+          path: ${{ steps.find_output.outputs.path }}
 
   deploy:
     environment:

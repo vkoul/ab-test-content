@@ -56,7 +56,4 @@ site:
   title: "A/B Testing in Practice"
   options:
     logo_text: "A/B Testing"
-  actions:
-    - title: "Open in Colab"
-      url: https://colab.research.google.com/github/vkoul/ab-test-content/blob/main/{{ path }}
   template: book-theme
