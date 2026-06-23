@@ -34,7 +34,7 @@ jobs:
         run: pip install jupyter-book
 
       - name: Build the book
-        run: jupyter-book build --html
+        run: BASE_URL=/ab-test-content jupyter-book build --html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
